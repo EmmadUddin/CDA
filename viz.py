@@ -8,7 +8,7 @@ import pandas as pd
 import streamlit as st
 
 st.header('Billionaire Dataset')
-folder=r'C:\Users\Hp\Documents\Emmad\Data Analyst_CDA\Class 2-Python for DS/'
+#folder=r'C:\Users\Hp\Documents\Emmad\Data Analyst_CDA\Class 2-Python for DS/'
 #file='Billionaire.csv'
 #filepath=folder+file
 # reading the file 
