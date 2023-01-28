@@ -12,10 +12,10 @@ folder=r'C:\Users\Hp\Documents\Emmad\Data Analyst_CDA\Class 2-Python for DS/'
 #file='Billionaire.csv'
 #filepath=folder+file
 # reading the file 
-df=pd.read_csv('Billionaire.csv') #fro github put the name of orignial file
+df=pd.read_csv('Billionaire.csv') #for github I have put the name of original file
 df['NetWorth']=df['NetWorth'].apply(lambda x: float(x.replace('$', '').replace(' B', '')))
 
-#columns scnee
+#columns scene
 all_country = sorted(df['Country'].unique())
 col1,col2= st.columns(2)
 
